@@ -1,0 +1,44 @@
+.cache
+.idea
+.vscode
+.cargo
+apikeys.json
+compile_commands.json
+perf.data*
+.env
+
+# Python files
+__pycache__
+.mypy_cache
+.ruff_cache
+.pytest_cache
+.scrapy
+*.py[cod]
+
+# Kicad files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Latex files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+*.FCBak
