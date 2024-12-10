@@ -518,23 +518,22 @@
 				)
 			)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+		(symbol "Connector:Screw_Terminal_01x08"
 			(pin_names
-				(offset 0.762) hide)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
+			(property "Reference" "J"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
+			(property "Value" "Screw_Terminal_01x08"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -542,7 +541,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 5.08 0 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -551,15 +550,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
 				(at 0 0 0)
 				(effects
 					(font
@@ -568,7 +558,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "test point tp"
+			(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -577,7 +567,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
+			(property "ki_keywords" "screw terminal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -586,24 +576,311 @@
 					(hide yes)
 				)
 			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x08_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
 					(stroke
-						(width 0)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -10.16)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "TestPoint_1_1"
+				(circle
+					(center 0 -7.62)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -9.8298) (xy 0.3302 -10.668)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -7.2898) (xy 0.3302 -8.128)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 5.4102) (xy 0.3302 4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 7.9502) (xy 0.3302 7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -9.652) (xy 0.508 -10.4902)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -7.112) (xy 0.508 -7.9502)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 5.588) (xy 0.508 4.7498)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 8.128) (xy 0.508 7.2898)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 7.62)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -611,6 +888,132 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -924,6 +1327,296 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1894,6 +2587,16 @@
 		)
 		(uuid "7f59deb0-e36b-488a-a174-4ce218383590")
 	)
+	(wire
+		(pts
+			(xy 143.51 96.52) (xy 143.51 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c204f334-2fe6-4cfd-a8ff-8705dd42f126")
+	)
 	(text "Each 12 V wire can carry 4.17 A according to ATX standard\n(https://superuser.com/questions/1577923/how-much-power-output-can-an-8-pin-to-2x-62-pin-connector-output)\n\nThis board supports 750 W so needs 15 x 12V wires.\nEPS: 4 x 12V\nPCIE: 3 x 12V x 3\nATX: 2 x 12 V"
 		(exclude_from_sim no)
 		(at 100.584 46.99 0)
@@ -1903,17 +2606,6 @@
 			)
 		)
 		(uuid "aff8ea0a-bc2f-4c3b-8aff-dfb67680c5b3")
-	)
-	(label "PWR_OK"
-		(at 201.93 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3be03c3d-a0f3-4d3e-941b-c2487243e98f")
 	)
 	(label "PWR_OK"
 		(at 60.96 67.31 0)
@@ -1926,71 +2618,16 @@
 		)
 		(uuid "a33e519e-39d6-4a9b-aceb-dfcf736ab9fe")
 	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 152.4 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(label "PWR_OK"
+		(at 143.51 99.06 0)
 		(fields_autoplaced yes)
-		(uuid "0052b1be-1522-45e2-8a48-201f947b1149")
-		(property "Reference" "#PWR062"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "+12V"
-			(at 152.4 120.3269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 152.4 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "418a11af-722d-4e3b-a978-95fd92801081")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "c32f1cb2-ff66-4097-86dc-95c44b241f32")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2002,7 +2639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "006a04be-ebe2-462d-9284-663152896ab6")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR038"
 			(at 144.78 80.01 0)
 			(effects
 				(font
@@ -2053,24 +2690,24 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR032")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 241.3 124.46 180)
+		(lib_id "power:+3.3V")
+		(at 121.92 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "011b27d1-e6b0-4e92-bc03-3425a65e10bd")
-		(property "Reference" "#PWR069"
-			(at 241.3 118.11 0)
+		(uuid "0527a59f-1554-4f16-a41b-58c67c300727")
+		(property "Reference" "#PWR098"
+			(at 121.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,8 +2715,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 241.3 120.3269 0)
+		(property "Value" "+3.3V"
+			(at 121.92 100.6531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 124.46 0)
+			(at 121.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +2733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 124.46 0)
+			(at 121.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,8 +2741,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 124.46 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 121.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,12 +2751,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "55254790-37ff-45ec-ba02-7ea7b8eb1f7d")
+			(uuid "94db53e5-00d6-411e-b8b5-de063a82c458")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR069")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -2127,16 +2764,16 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 101.6 124.46 0)
+		(at 76.2 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "06d27c78-a262-4f6d-ae41-3ac07d15ef1d")
-		(property "Reference" "#PWR058"
-			(at 101.6 128.27 0)
+		(uuid "0658d714-b677-41ee-86a9-f8610f18a645")
+		(property "Reference" "#PWR046"
+			(at 76.2 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +2782,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 101.6 120.3269 0)
+			(at 76.2 129.8631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +2790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 124.46 0)
+			(at 76.2 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +2799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 124.46 0)
+			(at 76.2 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2808,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 101.6 124.46 0)
+			(at 76.2 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,12 +2817,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "80a2a609-6ff4-4379-8e83-18d4ef849313")
+			(uuid "0c1d6a06-d4ee-4269-b79d-65a4c8d46349")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR058")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2201,7 +2838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "072e61ae-c865-4cca-9621-23f1651d5f73")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR016"
 			(at 76.2 74.93 0)
 			(effects
 				(font
@@ -2252,7 +2889,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR011")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -2268,7 +2905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07c146ec-9d61-4302-b944-5a2a95404884")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR024"
 			(at 57.15 77.47 0)
 			(effects
 				(font
@@ -2319,139 +2956,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08bb7886-9351-4416-ac03-8cf82bbe4d68")
-		(property "Reference" "#PWR043"
-			(at 114.3 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 106.3569 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27fdbcd8-d673-43ff-9c2a-df92e4963fa1")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 101.6 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "094ee16b-fce4-42de-a556-787b42f90b90")
-		(property "Reference" "#PWR074"
-			(at 101.6 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 101.6 145.7269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 101.6 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5a9513b-9d9a-4f58-931e-f56fd3c454af")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR074")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -2544,271 +3049,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 127 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b319ed4-63c1-4f48-b70a-093c6abc317c")
-		(property "Reference" "TP39"
-			(at 128.397 151.9498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 128.397 154.3741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 121.92 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 127 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c41c7721-6f19-49c9-bcab-0189b40009c5")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 203.2 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b3918f0-6919-49e0-9ac8-dd01ed5a31b4")
-		(property "Reference" "#PWR066"
-			(at 203.2 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 203.2 120.3269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 203.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3680f48b-614a-482a-b194-b03cc58ab628")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 139.7 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e325869-fe72-4fcc-9bd6-bfde8882d2d7")
-		(property "Reference" "#PWR077"
-			(at 139.7 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 145.7269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3de17525-95ef-4ce1-9e53-6b852c948036")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 127 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f9d2d93-b54e-475f-a43f-28cf8baaf7cf")
-		(property "Reference" "#PWR076"
-			(at 127 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 127 145.7269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 127 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a9e27d9-f5cc-4903-adff-2d221318d9ef")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 163.83 77.47 90)
 		(unit 1)
@@ -2818,7 +3058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11a9f6fd-bf44-46b6-abfb-895d95e70164")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR030"
 			(at 170.18 77.47 0)
 			(effects
 				(font
@@ -2869,7 +3109,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR024")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2885,7 +3125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "126961ff-b128-47ab-857c-5ac1c6dd5f3f")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR029"
 			(at 154.94 77.47 0)
 			(effects
 				(font
@@ -2936,24 +3176,24 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR023")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 165.1 124.46 180)
+		(lib_id "power:+12V")
+		(at 111.76 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "153400ee-b98b-4653-98ed-a7bd64ed791a")
-		(property "Reference" "#PWR063"
-			(at 165.1 118.11 0)
+		(uuid "128ea444-66e1-4236-b49c-e2f4624551a3")
+		(property "Reference" "#PWR064"
+			(at 111.76 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2961,8 +3201,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 165.1 120.3269 0)
+		(property "Value" "+12V"
+			(at 111.76 129.8631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,7 +3210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 124.46 0)
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2979,7 +3219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 124.46 0)
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,8 +3227,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 124.46 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2997,12 +3237,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3bf6bce8-1532-4941-8af5-905981f220d3")
+			(uuid "6fc358fc-69ef-44c2-89a4-2079de107116")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3018,7 +3258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17c95372-325e-40e3-8b15-fab7568ad9f8")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR026"
 			(at 91.44 77.47 0)
 			(effects
 				(font
@@ -3069,42 +3309,24 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR020")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 101.6 110.49 180)
+		(lib_id "power:GND")
+		(at 114.3 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "194e047d-d479-45a7-8e3d-056c17b84f54")
-		(property "Reference" "TP5"
-			(at 102.997 112.5798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 102.997 115.0041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 96.52 110.49 0)
+		(uuid "1afe3234-850f-42b1-8316-da08198d9c93")
+		(property "Reference" "#PWR065"
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,8 +3334,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 96.52 110.49 0)
+		(property "Value" "GND"
+			(at 114.3 129.8631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,8 +3351,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 101.6 110.49 0)
+		(property "Datasheet" ""
+			(at 114.3 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3131,146 +3370,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3869a8d-ec15-4543-bd61-9f72345c5aef")
+			(uuid "48e23bca-0417-41a7-8d95-546f2e06c6ae")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 127 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d503b7b-a68a-4a14-bd66-7f5835fb3ec4")
-		(property "Reference" "TP23"
-			(at 128.397 126.5498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 128.397 128.9741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 121.92 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 127 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76bd4f9e-ef48-4444-8aab-5b4abf04b1bb")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 101.6 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e77a675-f095-4c99-b701-90ed20b39f16")
-		(property "Reference" "TP37"
-			(at 102.997 151.9498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 102.997 154.3741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 96.52 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 101.6 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "691867b9-837c-4916-97ce-a3a32c9cd230")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP37")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3286,7 +3391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ebe1d77-fb55-49ef-8fb0-be50386a0e45")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR036"
 			(at 111.76 80.01 0)
 			(effects
 				(font
@@ -3337,7 +3442,73 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR030")
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 101.6 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f4ef86a-dbda-44ba-af45-b292574ceb7a")
+		(property "Reference" "#PWR060"
+			(at 101.6 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 101.6 129.8631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 101.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08453403-30d5-41c8-a45f-a9ea5247fbd4")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -3353,7 +3524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22d8b2a3-f255-43f3-ae86-7d76f66c2baf")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 57.15 72.39 0)
 			(effects
 				(font
@@ -3404,7 +3575,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3412,16 +3583,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 124.46 180)
+		(at 78.74 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "22eb98b8-575b-4911-bf43-befb29bd0a06")
-		(property "Reference" "#PWR065"
-			(at 190.5 118.11 0)
+		(uuid "2333fa1c-40c8-41e2-9609-c71dd4e303a2")
+		(property "Reference" "#PWR047"
+			(at 78.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3601,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 120.3269 0)
+			(at 78.74 129.8631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3609,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 124.46 0)
+			(at 78.74 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 124.46 0)
+			(at 78.74 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3627,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 124.46 0)
+			(at 78.74 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,212 +3636,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a2b9497-2ffa-4180-9a7e-1cdfb5f91f10")
+			(uuid "4b8c96d6-14f9-4cc0-913e-e61859474740")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 114.3 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25aa2f42-a7bd-4a42-b055-404759436845")
-		(property "Reference" "TP22"
-			(at 115.697 126.5498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 115.697 128.9741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 109.22 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 114.3 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5de00af-790c-40d5-9b8d-3cf66370e717")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 50.8 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b6784e4-9bdb-49d0-8e88-04fbd4c7ef91")
-		(property "Reference" "TP17"
-			(at 52.197 126.5498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 52.197 128.9741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 45.72 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 50.8 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aed78f85-0439-459c-b95d-7b69f6424b4f")
-		)
-		(instances
-			(project ""
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 76.2 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e38012c-e96c-4bba-a58f-f5414ba916a0")
-		(property "Reference" "#PWR056"
-			(at 76.2 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 76.2 120.3269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 76.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "901a90fa-26ab-4dd1-a6f8-4257393e1db2")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR056")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3678,16 +3649,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 124.46 180)
+		(at 124.46 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "32132480-e3cd-40f5-8d36-16c1dffb25ac")
-		(property "Reference" "#PWR059"
-			(at 114.3 118.11 0)
+		(uuid "27eb573d-a6dd-4b7e-ad27-88b33854e8f4")
+		(property "Reference" "#PWR099"
+			(at 124.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +3667,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 120.3269 0)
+			(at 124.46 100.6531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 124.46 0)
+			(at 124.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 124.46 0)
+			(at 124.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,7 +3693,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 124.46 0)
+			(at 124.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,29 +3702,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e74c106-746e-47ad-a982-1fae05b1e9dd")
+			(uuid "ddec1d65-0ddb-4fbb-b822-685ae8812e59")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR059")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 127 110.49 0)
+		(lib_id "power:GND")
+		(at 16.51 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "340a2349-789b-4da6-aea9-8ff2f9c67ca5")
-		(property "Reference" "#PWR044"
-			(at 127 114.3 0)
+		(uuid "3468b7df-8921-4df5-be37-5a58b279f0a3")
+		(property "Reference" "#PWR052"
+			(at 16.51 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,8 +3732,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 127 106.3569 0)
+		(property "Value" "GND"
+			(at 16.51 107.0031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,7 +3741,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 110.49 0)
+			(at 16.51 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3779,7 +3750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 110.49 0)
+			(at 16.51 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,8 +3758,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 127 110.49 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 16.51 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,12 +3768,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "950e41eb-37a3-46d2-96dc-c04871cd7fba")
+			(uuid "308a281f-a8ef-4458-aed2-8977590164fa")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR044")
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35432da2-08f3-4fd6-92ce-357ae316fdc6")
+		(property "Reference" "#PWR089"
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 100.6531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a704cd45-a3e7-45fd-a674-f97cbdbc97dc")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -3818,7 +3855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35612cec-c4ca-41d7-835d-4c77567d7e77")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR020"
 			(at 154.94 74.93 0)
 			(effects
 				(font
@@ -3869,42 +3906,24 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR015")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 76.2 110.49 180)
+		(lib_id "power:+12V")
+		(at 81.28 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "371d7b6b-1f62-4373-9a99-d205838d0972")
-		(property "Reference" "TP3"
-			(at 77.597 112.5798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 77.597 115.0041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 71.12 110.49 0)
+		(uuid "3acf9e0a-5812-4f8e-93cd-91087ba7b3da")
+		(property "Reference" "#PWR048"
+			(at 81.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,258 +3931,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 71.12 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 76.2 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f73181a-af81-4405-a539-bf39f27ef3dd")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 114.3 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3803fd6f-0852-4439-aa77-11ed8b8ab217")
-		(property "Reference" "TP6"
-			(at 115.697 112.5798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 115.697 115.0041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 109.22 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 114.3 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f676097-1bd8-44a4-bda9-ef2fa114c6a9")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 88.9 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bf6b08f-ab92-4748-887d-3b6dd3575da2")
-		(property "Reference" "TP20"
-			(at 90.297 126.5498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 90.297 128.9741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 83.82 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 88.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0022099c-687a-437e-948c-d8a97a81f7c6")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 88.9 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c1cdb06-05db-4e2e-b413-c74bd6c022e9")
-		(property "Reference" "TP36"
-			(at 90.297 151.9498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 90.297 154.3741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 83.82 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 88.9 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1ff7206-0d82-4fbd-a8aa-1fcde02e05d7")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c92a5da-cc7d-4df4-be35-a1606b6552b7")
-		(property "Reference" "#PWR041"
-			(at 88.9 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 106.3569 0)
+		(property "Value" "+12V"
+			(at 81.28 129.8631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +3940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 110.49 0)
+			(at 81.28 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +3949,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 110.49 0)
+			(at 81.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 81.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd5a872c-7434-4439-9199-5f2f75a04074")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43394e13-6b9a-466d-8580-73f4006fbb2f")
+		(property "Reference" "#PWR0101"
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 100.6531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +4024,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 110.49 0)
+			(at 135.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,213 +4033,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e083b02-5300-44c6-ae55-fcbd4bc10066")
+			(uuid "cd7933f9-bdec-448a-9088-071d733c7d6b")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42bfb2e2-fddd-49cc-8955-31d17aee304c")
-		(property "Reference" "TP8"
-			(at 141.097 112.5798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 141.097 115.0041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 134.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e33d25ff-322e-470b-809a-edeca02748bc")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 127 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4522b0f2-78c7-4aa6-9a4c-be929cb6d63d")
-		(property "Reference" "TP7"
-			(at 128.397 112.5798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 128.397 115.0041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 121.92 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 127 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7a97177-51db-441b-a344-79becb5877cf")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 203.2 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "469df9c7-7950-40aa-8225-954c974418a7")
-		(property "Reference" "TP13"
-			(at 204.597 112.5798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 204.597 115.0041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 198.12 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 203.2 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e32e2da-230a-4589-873f-f61bb89feaf2")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP13")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -4420,7 +4054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46b0ac68-9a96-4c99-aaae-a8e0f023e6ad")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 154.94 72.39 0)
 			(effects
 				(font
@@ -4471,73 +4105,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 177.8 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46e89ff2-16ac-4bd1-9e97-a393b522256c")
-		(property "Reference" "#PWR064"
-			(at 177.8 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 177.8 120.3269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 177.8 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "774a44e5-7e08-496b-856c-a96dcaa4a5cc")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR064")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4553,7 +4121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a88b680-ab67-4c4a-8b8b-07ec846f3883")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR023"
 			(at 203.2 74.93 0)
 			(effects
 				(font
@@ -4604,7 +4172,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR018")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4697,73 +4265,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 152.4 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d0263da-8b9a-4396-a51c-d149f7ca5080")
-		(property "Reference" "TP9"
-			(at 153.797 112.5798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 153.797 115.0041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 147.32 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 152.4 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2091c5b8-4709-4c01-bda6-23bd9ab11455")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Top_Bottom")
 		(at 156.21 74.93 0)
 		(unit 1)
@@ -4850,139 +4351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e1b6461-555e-4ea8-955d-04dfb6a90222")
-		(property "Reference" "#PWR057"
-			(at 88.9 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 120.3269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "815083a7-6c6d-4197-83a0-521e78348101")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 177.8 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4eda985b-d088-45c4-8bec-7831a41a136a")
-		(property "Reference" "TP27"
-			(at 179.197 126.5498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 179.197 128.9741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 172.72 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 177.8 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c156c14-310d-4048-8009-636aa77742fb")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 60.96 80.01 270)
 		(unit 1)
@@ -4992,7 +4360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50c645a2-e1dd-44c4-a66d-7f83b57eb1cf")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR033"
 			(at 57.15 80.01 0)
 			(effects
 				(font
@@ -5043,73 +4411,7 @@
 		(instances
 			(project ""
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 50.8 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5189e2f7-d657-4c27-ad19-156594fa614c")
-		(property "Reference" "#PWR038"
-			(at 50.8 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 50.8 106.3569 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 50.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "764e5a2c-6a5b-42fc-9a8d-a2c57af8fd5e")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR038")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -5125,7 +4427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5192967a-615d-4de6-bc6d-d796470faf9d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 137.16 72.39 0)
 			(effects
 				(font
@@ -5176,273 +4478,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 50.8 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "552e6ca3-2987-4b99-8e5b-4c8c142aebef")
-		(property "Reference" "#PWR070"
-			(at 50.8 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 50.8 145.7269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 50.8 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c542cd4-c9a5-449e-8339-2e6ffd163348")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 76.2 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "563419a0-393b-4cad-800f-0173eb2bc980")
-		(property "Reference" "TP19"
-			(at 77.597 126.5498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 77.597 128.9741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 71.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 76.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "199cae77-879e-4f0c-9d64-b94e096e2180")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 50.8 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5734eefe-da51-45eb-ace5-621225dc15a9")
-		(property "Reference" "TP33"
-			(at 52.197 151.9498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 52.197 154.3741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 45.72 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 50.8 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83d0536d-a1b2-4acc-a0fb-7653ad56d122")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 177.8 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c75709b-d389-469b-b4b9-55e67951827b")
-		(property "Reference" "#PWR048"
-			(at 177.8 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 177.8 106.3569 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 177.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5785136b-4288-4701-967f-b87e122469a0")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR048")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5450,16 +4486,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 149.86 180)
+		(at 88.9 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5ecc9e5e-1f62-4f87-8bcb-6b7442065319")
-		(property "Reference" "#PWR079"
-			(at 165.1 143.51 0)
+		(uuid "520e5d0d-acff-47d2-845f-9c3c643b92e9")
+		(property "Reference" "#PWR051"
+			(at 88.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +4504,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 145.7269 0)
+			(at 88.9 129.8631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +4512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 149.86 0)
+			(at 88.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +4521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 149.86 0)
+			(at 88.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,7 +4530,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 149.86 0)
+			(at 88.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,12 +4539,408 @@
 			)
 		)
 		(pin "1"
-			(uuid "f230e8e3-5c3d-42d6-8dfa-1aca15bba7eb")
+			(uuid "5de73329-d039-4313-b04b-65ed67823b4a")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR079")
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54bec60c-b7b3-4399-8767-c19f91d2a31e")
+		(property "Reference" "#PWR059"
+			(at 88.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 100.6531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f427771f-7610-49e6-927e-fa1fa980fc0e")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55e84106-6c78-43a9-b86c-08e9da3dfaf2")
+		(property "Reference" "#PWR097"
+			(at 119.38 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 100.6531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b25166f6-0dbd-4109-8890-df1680258d53")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5672dbf9-2837-41fc-95f1-c36e5467482c")
+		(property "Reference" "#PWR049"
+			(at 83.82 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 129.8631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b1da62b-2adc-46bd-8ac3-98ddcc8bce6a")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "589d592c-0e01-4faf-973c-204c7d542226")
+		(property "Reference" "#PWR061"
+			(at 104.14 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 129.8631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2da7d9d9-f4cc-46ae-8396-1eb72213f2b7")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 16.51 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c241dcb-b842-489b-a21d-60f08940d749")
+		(property "Reference" "#PWR054"
+			(at 16.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 16.51 83.4969 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 16.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0aefe6b-24e7-4307-b825-80b4a459dcca")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12V")
+		(at 133.35 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f7b8598-74ec-44b2-89f7-24b74c3a5b39")
+		(property "Reference" "#PWR0100"
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 133.35 100.6531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 133.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e3c6c4f-8efd-4c07-8361-2ed2b6ad61c8")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -5588,7 +5020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62c3682f-e783-4021-9112-26c8f7c16627")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR041"
 			(at 203.2 80.01 0)
 			(effects
 				(font
@@ -5639,7 +5071,73 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR035")
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 81.28 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65267fb7-df8d-4a52-889f-086c51e8c511")
+		(property "Reference" "#PWR056"
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 81.28 100.6531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 81.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a45fbfc-7b54-4734-a209-a1439e7ae38d")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5655,7 +5153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65f0bb3d-70e8-4546-a3be-3e77c322ce7f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR034"
 			(at 76.2 80.01 0)
 			(effects
 				(font
@@ -5706,42 +5204,42 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR028")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 88.9 110.49 180)
+		(lib_id "Mechanical:MountingHole")
+		(at 209.55 49.53 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "687950b1-ba28-4ea9-9304-3f16b0de3a9e")
-		(property "Reference" "TP4"
-			(at 90.297 112.5798 0)
+		(uuid "66180622-1028-46d2-8023-2809cb23c49a")
+		(property "Reference" "H2"
+			(at 212.09 48.3178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 90.297 115.0041 0)
+		(property "Value" "MountingHole"
+			(at 212.09 50.7421 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 83.82 110.49 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 209.55 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5750,7 +5248,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 110.49 0)
+			(at 209.55 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,22 +5256,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 88.9 110.49 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 209.55 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "818bfa15-dddd-49dc-addb-1a022f00954b")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP4")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5860,73 +5355,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a000afa-10c7-4d5a-90a6-e5ce6e99188c")
-		(property "Reference" "TP24"
-			(at 141.097 126.5498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 141.097 128.9741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 134.62 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff0e6a51-a4dc-4329-87f5-37b976c3251e")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 95.25 80.01 270)
 		(unit 1)
@@ -5936,7 +5364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "718a2eff-f1fd-4bc5-96ce-8bcb9ceda6ce")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR035"
 			(at 91.44 80.01 0)
 			(effects
 				(font
@@ -5987,7 +5415,73 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR029")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73658654-d6d8-47ff-8b20-4fb90ff837fb")
+		(property "Reference" "#PWR095"
+			(at 114.3 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 100.6531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e307e1d0-f09f-4c7f-b5bf-c4bc48b1a0f1")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -6003,7 +5497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73bcbd16-e7e1-4004-992a-5e3af2efbfd4")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR018"
 			(at 121.92 74.93 0)
 			(effects
 				(font
@@ -6054,7 +5548,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR013")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6062,16 +5556,16 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 76.2 110.49 0)
+		(at 71.12 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "74d6e744-be4f-4060-88ab-b0d3b02a3083")
-		(property "Reference" "#PWR040"
-			(at 76.2 114.3 0)
+		(uuid "770ea756-c794-482f-bf2d-4d89fd5d8773")
+		(property "Reference" "#PWR044"
+			(at 71.12 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,7 +5574,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 76.2 106.3569 0)
+			(at 71.12 129.8631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,7 +5582,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 110.49 0)
+			(at 71.12 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,7 +5591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 110.49 0)
+			(at 71.12 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,7 +5600,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 76.2 110.49 0)
+			(at 71.12 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,113 +5609,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "a5f173b5-c865-4bcb-b648-2ab67099ddd6")
+			(uuid "070ea42f-3270-47ac-8dd2-1e34d69a708f")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR040")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 177.8 149.86 0)
+		(lib_id "Connector:Screw_Terminal_01x08")
+		(at 109.22 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "782c8a87-5946-4d18-8b56-43422da471ce")
-		(property "Reference" "#PWR080"
-			(at 177.8 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 177.8 145.7269 0)
+		(uuid "785b0c6a-77ef-47c0-b883-27867b76a8f4")
+		(property "Reference" "J10"
+			(at 110.49 115.2355 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.8 149.86 0)
+		(property "Value" "Screw_Terminal_01x08"
+			(at 110.49 117.6598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 177.8 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 177.8 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa3b21dc-cd73-4d0c-911e-e90980cc1803")
-		)
-		(instances
-			(project ""
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 76.2 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7861629e-a805-4d69-a454-1a2fd00fc322")
-		(property "Reference" "TP35"
-			(at 77.597 151.9498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 77.597 154.3741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 71.12 149.86 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-8-5.0-H_1x08_P5.00mm_Horizontal"
+			(at 109.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,7 +5656,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 149.86 0)
+			(at 109.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6238,88 +5664,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 76.2 149.86 0)
+		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 109.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "8"
+			(uuid "b4ff509c-74aa-4d7a-805e-8eb0d0cc897d")
+		)
+		(pin "7"
+			(uuid "e4a796e0-f707-4c24-a630-41322ccd66c5")
+		)
+		(pin "6"
+			(uuid "32e99663-a377-4fa8-9e39-93f706cd3db1")
+		)
+		(pin "5"
+			(uuid "1c61c39b-0d8f-489e-89a2-1199f007b689")
+		)
+		(pin "4"
+			(uuid "f6ceb00f-9f8d-429b-8c97-ffffd368acb5")
+		)
+		(pin "3"
+			(uuid "f0b6a792-53a4-4f52-9ee6-4334e7d15848")
+		)
+		(pin "2"
+			(uuid "cd9dac86-1192-4ecd-80b7-a25495876b8c")
 		)
 		(pin "1"
-			(uuid "5cfed328-9779-419f-8af8-cee0c13407d8")
+			(uuid "5b2c8d9a-e5ec-4062-8090-752e60c16469")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 101.6 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78ca6cbf-1ada-4ef5-b812-d18384deba0f")
-		(property "Reference" "#PWR042"
-			(at 101.6 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 101.6 106.3569 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 101.6 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8153f31b-ed98-4293-aa39-b16a8308eb61")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR042")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -6335,7 +5716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "792cc85b-1f25-46d0-a5ba-bb00ebaa3426")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR019"
 			(at 137.16 74.93 0)
 			(effects
 				(font
@@ -6386,7 +5767,73 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR014")
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 91.44 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7db851a9-0f70-4276-8b37-0ae365322669")
+		(property "Reference" "#PWR088"
+			(at 91.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 91.44 100.6531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0962218-9270-4b93-a9b1-90ca11b32f14")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -6402,7 +5849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e7dd5c1-f205-4bda-8acf-b79693191bfd")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR021"
 			(at 170.18 74.93 0)
 			(effects
 				(font
@@ -6453,108 +5900,42 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR016")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 63.5 149.86 180)
+		(lib_id "Device:R")
+		(at 16.51 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "82e75568-f16c-4b63-8dc2-ea94d60b21ad")
-		(property "Reference" "#PWR071"
-			(at 63.5 143.51 0)
+		(uuid "7f133783-6d47-4c30-b342-ded5009ad90d")
+		(property "Reference" "R1"
+			(at 18.288 97.8478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 63.5 145.7269 0)
+		(property "Value" "R"
+			(at 18.288 100.2721 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 63.5 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e1ead89-598d-405f-bffd-54fb9eb769c8")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 152.4 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84a8d528-7fa9-4165-8555-794d47a69258")
-		(property "Reference" "TP41"
-			(at 153.797 151.9498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 153.797 154.3741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 147.32 149.86 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 14.732 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6563,7 +5944,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 149.86 0)
+			(at 16.51 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6571,75 +5952,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 152.4 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ca61f57-ed2d-42b9-a2ba-dbd3696c64f2")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 215.9 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "880f3b42-6566-4fde-9338-b4f839d47d01")
-		(property "Reference" "TP14"
-			(at 217.297 112.5798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 217.297 115.0041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 210.82 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 215.9 110.49 0)
+		(property "Description" "Resistor"
+			(at 16.51 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6648,12 +5962,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "61519097-cdb3-4a10-bde1-6c80fd5ef8d8")
+			(uuid "4d7ee72c-6239-4acc-a1ad-0a1e329c6765")
+		)
+		(pin "2"
+			(uuid "3d1ba8ea-189e-4b5c-8846-f597518bef77")
 		)
 		(instances
-			(project "atx_breakout"
+			(project ""
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP14")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6669,7 +5986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a4a9f3e-cc73-4481-9c63-5e36f3f8876f")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR015"
 			(at 57.15 74.93 0)
 			(effects
 				(font
@@ -6720,7 +6037,7 @@
 		(instances
 			(project ""
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR010")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6736,7 +6053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a6ed285-ec90-4be6-9260-60290654cde8")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR017"
 			(at 91.44 74.93 0)
 			(effects
 				(font
@@ -6787,7 +6104,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR012")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6803,7 +6120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aee780b-4f02-4184-a331-6660e426706b")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR013"
 			(at 203.2 72.39 0)
 			(effects
 				(font
@@ -6854,74 +6171,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 190.5 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8af12841-65c5-47e9-afcc-faef1b9b8f35")
-		(property "Reference" "TP12"
-			(at 191.897 112.5798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.897 115.0041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 185.42 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 190.5 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2566c21e-aaa1-44d6-ac8a-ed64d11f257a")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP12")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6937,7 +6187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bf8fd7a-6279-49c4-960b-c0b0b499d0a7")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR040"
 			(at 177.8 80.01 0)
 			(effects
 				(font
@@ -6988,7 +6238,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR034")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -7004,7 +6254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90228ceb-ca43-43f4-8fd4-44237a0bc68f")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR027"
 			(at 121.92 77.47 0)
 			(effects
 				(font
@@ -7055,24 +6305,24 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR021")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 114.3 149.86 180)
+		(lib_id "Device:LED")
+		(at 27.94 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "91613309-f051-4e90-a3a2-98e513681c8f")
-		(property "Reference" "TP38"
-			(at 115.697 151.9498 0)
+		(uuid "92050107-43e4-49a8-92a3-87babc127a7d")
+		(property "Reference" "D2"
+			(at 30.861 91.8153 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7080,8 +6330,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 115.697 154.3741 0)
+		(property "Value" "LED"
+			(at 30.861 94.2396 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7089,8 +6339,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 109.22 149.86 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 27.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,7 +6349,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 149.86 0)
+			(at 27.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7107,58 +6357,58 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 114.3 149.86 0)
+		(property "Description" "Light emitting diode"
+			(at 27.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "a8dc22da-3f12-4a48-8067-41c487eeff48")
 		)
 		(pin "1"
-			(uuid "e8b4c5eb-dc5d-4675-8bf7-da0257f041db")
+			(uuid "eba2e12e-5b0d-46be-957a-739807fed064")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP38")
+					(reference "D2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 190.5 149.86 180)
+		(lib_id "Connector:Screw_Terminal_01x08")
+		(at 114.3 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "968c82f3-04a7-435d-ae5e-e9c92bd4474d")
-		(property "Reference" "TP44"
-			(at 191.897 151.9498 0)
+		(uuid "92def044-1d4f-414d-ac57-b05e38c7511e")
+		(property "Reference" "J7"
+			(at 115.57 86.0255 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 191.897 154.3741 0)
+		(property "Value" "Screw_Terminal_01x08"
+			(at 115.57 88.4498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 185.42 149.86 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-8-3.5-H_1x08_P3.50mm_Horizontal"
+			(at 114.3 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +6417,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 149.86 0)
+			(at 114.3 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,223 +6425,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 190.5 149.86 0)
+		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 114.3 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "8"
+			(uuid "dd1aa207-c772-4a1d-b85b-990bbafead49")
+		)
+		(pin "7"
+			(uuid "df8ff309-825d-4edf-a71a-d37fd2e98eda")
+		)
+		(pin "6"
+			(uuid "b44d7c8a-1bd5-48cb-9f5e-796e59bb20eb")
+		)
+		(pin "5"
+			(uuid "7f937542-79af-444b-afc1-ec5e86482390")
+		)
+		(pin "4"
+			(uuid "74318377-1ff6-4a3f-aabe-1616d313f846")
+		)
+		(pin "3"
+			(uuid "29add5ad-d08e-4003-9acc-04784048aa02")
+		)
+		(pin "2"
+			(uuid "29434252-d7dc-4071-b702-efd712f57224")
 		)
 		(pin "1"
-			(uuid "dae5ace1-8c93-455d-978b-bedb2866e62e")
+			(uuid "1fe1bf48-fcaf-4d1f-b475-bb7066ca0cd5")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 152.4 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96b4c2c4-571a-4541-b42d-4213bf3b4dff")
-		(property "Reference" "TP25"
-			(at 153.797 126.5498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 153.797 128.9741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 152.4 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "185500be-b212-4385-be88-da498fb9d576")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 241.3 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97aaa198-a2e9-4e0a-9bfd-8a7b7d9d15ad")
-		(property "Reference" "TP16"
-			(at 242.697 112.5798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 242.697 115.0041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 236.22 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 241.3 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21e76919-9a45-4242-acd5-ccaccd0fe700")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 215.9 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9855b05e-b078-442c-bfdb-efc17e0481e4")
-		(property "Reference" "TP30"
-			(at 217.297 126.5498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 217.297 128.9741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 210.82 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 215.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c40f32bb-818e-42b4-91a7-e76a2ddd2a97")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP30")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -7399,16 +6469,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 110.49 180)
+		(at 83.82 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "98f0d1f5-6e8d-4e79-af41-6d0ef945ad4a")
-		(property "Reference" "#PWR051"
-			(at 215.9 104.14 0)
+		(uuid "94653e90-c8b8-4cb7-bf73-ec24cd271fbf")
+		(property "Reference" "#PWR057"
+			(at 83.82 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7417,7 +6487,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 106.3569 0)
+			(at 83.82 100.6531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,7 +6495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 110.49 0)
+			(at 83.82 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,7 +6504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 110.49 0)
+			(at 83.82 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,7 +6513,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 110.49 0)
+			(at 83.82 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,12 +6522,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "eea1907c-c6e3-43ef-a9db-e26326d1b0a2")
+			(uuid "2d80724b-79a0-4858-8e4b-3f663767f1c9")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR051")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -7473,7 +6543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "994ecb4a-a944-4177-8bba-aa8aa547f708")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR039"
 			(at 170.18 80.01 0)
 			(effects
 				(font
@@ -7524,74 +6594,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 177.8 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a75e511-08e9-4ea3-a562-9e71d99ac7ba")
-		(property "Reference" "TP11"
-			(at 179.197 112.5798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 179.197 115.0041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 172.72 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 177.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2e9d5df-7cb7-4d52-a00e-f160749efd59")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP11")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7607,7 +6610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c75bdf8-2917-4bbf-abba-0d7d844ba553")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR08"
 			(at 121.92 72.39 0)
 			(effects
 				(font
@@ -7658,42 +6661,24 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 63.5 149.86 180)
+		(lib_id "power:VBUS")
+		(at 138.43 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9c868d49-18b8-4ad1-adf9-4ad3aba8e2cd")
-		(property "Reference" "TP34"
-			(at 64.897 151.9498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 64.897 154.3741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 58.42 149.86 0)
+		(uuid "9c887bd9-1cd6-48d8-8331-f683f84b04f6")
+		(property "Reference" "#PWR0102"
+			(at 138.43 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,8 +6686,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 58.42 149.86 0)
+		(property "Value" "VBUS"
+			(at 138.43 100.6531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7710,8 +6703,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 63.5 149.86 0)
+		(property "Datasheet" ""
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 138.43 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7720,12 +6722,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "8293fb6b-184f-4ed4-a4f5-b5dadb64d096")
+			(uuid "9bb31051-8cde-4179-9331-c947db85dbde")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP34")
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d65ea7c-95a7-48a8-a70b-5f404d83bccb")
+		(property "Reference" "#PWR0103"
+			(at 140.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 100.6531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af209bfd-071b-46fc-94b1-52b844214195")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -7741,7 +6809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e112913-324f-4ed3-8ca4-a99f838e8614")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR04"
 			(at 34.29 71.12 0)
 			(effects
 				(font
@@ -7792,43 +6860,24 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR085")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 149.86 180)
+		(lib_id "power:+12V")
+		(at 86.36 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a09d3b58-0427-4da5-9d50-89fcd0fbe393")
-		(property "Reference" "TP45"
-			(at 203.327 151.9498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 203.327 154.3741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 196.85 149.86 0)
+		(uuid "a1690f1c-46d2-4630-af71-3e1dcc44eaa5")
+		(property "Reference" "#PWR050"
+			(at 86.36 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7836,8 +6885,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 196.85 149.86 0)
+		(property "Value" "+12V"
+			(at 86.36 129.8631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7845,8 +6902,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 201.93 149.86 0)
+		(property "Datasheet" ""
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7855,12 +6921,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c0f5b92-52b6-446c-939d-7487b316004b")
+			(uuid "b58d8fa8-8af7-4102-b0c3-cbc78a5a7fd0")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP45")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7876,7 +6942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2cff707-13bf-498e-8b7d-622282eb042f")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR06"
 			(at 76.2 72.39 0)
 			(effects
 				(font
@@ -7927,7 +6993,73 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR02")
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 111.76 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5508a64-b26e-47ad-a23a-3797899be1c1")
+		(property "Reference" "#PWR094"
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 111.76 100.6531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87f3b023-a657-4667-8253-9952a53d7644")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -7943,7 +7075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a60e0118-fdd6-4b5a-b417-60beac369705")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR031"
 			(at 187.96 77.47 0)
 			(effects
 				(font
@@ -7994,24 +7126,42 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR025")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 228.6 124.46 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 228.6 49.53 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a64b85de-ffce-4769-8b54-62a86c9905c3")
-		(property "Reference" "#PWR068"
-			(at 228.6 128.27 0)
+		(uuid "aa12f7c9-f82e-4d77-865b-63ea624918e1")
+		(property "Reference" "H3"
+			(at 231.14 48.3178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 231.14 50.7421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 228.6 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8019,16 +7169,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 228.6 120.3269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 124.46 0)
+		(property "Datasheet" "~"
+			(at 228.6 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8036,97 +7178,19 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 228.6 124.46 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 228.6 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 228.6 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d491ba5-a66e-4f46-944c-acac3b127f32")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 76.2 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a90c38a2-3728-42d0-93d4-7a558ff60eb8")
-		(property "Reference" "#PWR072"
-			(at 76.2 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 76.2 145.7269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 76.2 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc19e6f4-de4d-41ab-ae68-7ae19cea3c39")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR072")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -8142,7 +7206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac8449a8-96ea-4a88-8d3e-0c6b1432ef09")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR01"
 			(at 8.89 68.58 0)
 			(effects
 				(font
@@ -8193,7 +7257,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR087")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8209,7 +7273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aceedea9-524e-43bd-9100-a7d61ebd9aea")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR07"
 			(at 91.44 72.39 0)
 			(effects
 				(font
@@ -8260,24 +7324,24 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 110.49 180)
+		(lib_id "Device:LED")
+		(at 16.51 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "afbfe9ee-243e-4ca8-9011-4833892d6bd1")
-		(property "Reference" "TP10"
-			(at 166.497 112.5798 0)
+		(uuid "ae4a9be9-4379-40b0-b6c6-8142c7d53d5b")
+		(property "Reference" "D1"
+			(at 19.431 91.8153 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8285,8 +7349,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 166.497 115.0041 0)
+		(property "Value" "LED"
+			(at 19.431 94.2396 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8294,8 +7358,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 160.02 110.49 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 16.51 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8304,7 +7368,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 110.49 0)
+			(at 16.51 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8312,22 +7376,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 165.1 110.49 0)
+		(property "Description" "Light emitting diode"
+			(at 16.51 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "73ad0c24-9e89-4be9-9689-72ff2f5a5683")
 		)
 		(pin "1"
-			(uuid "cc55433f-8b3a-4b3c-81ad-68832f2efc11")
+			(uuid "0c210ede-fe58-4cec-a51f-f6804a38623d")
 		)
 		(instances
-			(project "atx_breakout"
+			(project ""
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP10")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8335,16 +7402,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 124.46 180)
+		(at 146.05 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b206c40e-894d-4da3-be85-fa06dc77cb6d")
-		(property "Reference" "#PWR055"
-			(at 63.5 118.11 0)
+		(uuid "af50f295-ef17-49bf-b00b-23ea36f6632a")
+		(property "Reference" "#PWR0104"
+			(at 146.05 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8353,7 +7420,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 120.3269 0)
+			(at 146.05 100.6531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8361,7 +7428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 124.46 0)
+			(at 146.05 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8370,7 +7437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 124.46 0)
+			(at 146.05 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,7 +7446,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 124.46 0)
+			(at 146.05 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,47 +7455,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e76ec57-656d-4580-83cd-74417cccab9f")
+			(uuid "f4865a05-67e4-4af7-8fb0-2813f4c1894e")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR055")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 177.8 149.86 180)
+		(lib_id "Device:R")
+		(at 27.94 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b361fe70-dd46-4507-9551-9f99666924a2")
-		(property "Reference" "TP43"
-			(at 179.197 151.9498 0)
+		(uuid "affeab71-43a0-459e-8a95-f0d35846d8c4")
+		(property "Reference" "R2"
+			(at 29.718 97.8478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 179.197 154.3741 0)
+		(property "Value" "R"
+			(at 29.718 100.2721 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 172.72 149.86 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 26.162 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +7504,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 149.86 0)
+			(at 27.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8445,8 +7512,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 177.8 149.86 0)
+		(property "Description" "Resistor"
+			(at 27.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,29 +7522,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "06067c22-5b58-4598-8ae2-f75ec9e302a1")
+			(uuid "36432562-6a4c-4d71-9e3f-8df3bc3e63a5")
+		)
+		(pin "2"
+			(uuid "59b24927-b1b5-46ac-a465-9601debb254d")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP43")
+					(reference "R2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 241.3 110.49 180)
+		(lib_id "power:+12V")
+		(at 86.36 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b3793812-7b58-4e3d-b821-e02bf4938d87")
-		(property "Reference" "#PWR053"
-			(at 241.3 104.14 0)
+		(uuid "b549aa13-ab0e-458f-88b1-b75bbc059dc5")
+		(property "Reference" "#PWR058"
+			(at 86.36 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8485,8 +7555,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 241.3 106.3569 0)
+		(property "Value" "+12V"
+			(at 86.36 100.6531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8494,7 +7564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 110.49 0)
+			(at 86.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,7 +7573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 110.49 0)
+			(at 86.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8511,8 +7581,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 110.49 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 86.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8521,47 +7591,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "0762c5e3-2272-41ff-b4a6-005ff67f9113")
+			(uuid "39ae5bb6-1d55-4858-9960-f4e54bf13c1b")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR053")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 203.2 124.46 180)
+		(lib_id "power:+3.3V")
+		(at 116.84 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b5308d7e-0ad1-4dd5-bb1d-19586ca524bc")
-		(property "Reference" "TP29"
-			(at 204.597 126.5498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 204.597 128.9741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 198.12 124.46 0)
+		(uuid "bc1387a2-561c-4935-a899-d87532ffde77")
+		(property "Reference" "#PWR096"
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8569,8 +7621,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 198.12 124.46 0)
+		(property "Value" "+3.3V"
+			(at 116.84 100.6531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8578,8 +7638,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 203.2 124.46 0)
+		(property "Datasheet" ""
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 116.84 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,213 +7657,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1581c10b-af40-4ab1-bdb1-4c784d4c5b4f")
+			(uuid "55b2ac18-55b5-44eb-b99d-625b31d5f775")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 228.6 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7662600-8d33-4829-b0c0-97b099195cf5")
-		(property "Reference" "TP31"
-			(at 229.997 126.5498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 229.997 128.9741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 223.52 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 228.6 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b230c932-9cb8-4a75-b865-204a90e4abee")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9d68751-3cbe-4235-a1c1-d386b9677916")
-		(property "Reference" "TP40"
-			(at 141.097 151.9498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 141.097 154.3741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 134.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e89aa06e-3437-4b7e-90f2-7b6e0b16c4d0")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bae5a0a8-91ff-40ab-97d7-8d1d2f53df40")
-		(property "Reference" "TP26"
-			(at 166.497 126.5498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 166.497 128.9741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 160.02 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 165.1 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13c1f466-4c15-46a3-a54e-8ce2a952134d")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP26")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -8810,7 +7678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdf384c8-da1a-44f0-b29d-4c7458d86d8a")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR032"
 			(at 203.2 77.47 0)
 			(effects
 				(font
@@ -8861,141 +7729,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 241.3 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1975c8d-a92a-43fa-9855-b603be08deb3")
-		(property "Reference" "TP32"
-			(at 242.697 126.5498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 242.697 128.9741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 236.22 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 241.3 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bf233e9-d4da-483c-988a-3c28ab8b9a42")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 228.6 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c22722dd-16c1-471a-a5be-06171e61dd47")
-		(property "Reference" "TP15"
-			(at 229.997 112.5798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 229.997 115.0041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 223.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 228.6 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b42253f-fba8-4a5d-9fa2-f8c6571318a9")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP15")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9011,7 +7745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3e58226-2987-41d5-bc39-811ad03450c4")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR028"
 			(at 137.16 77.47 0)
 			(effects
 				(font
@@ -9062,140 +7796,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 50.8 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4f9f3b9-e5d7-44f6-abce-9b3659613b88")
-		(property "Reference" "#PWR054"
-			(at 50.8 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 50.8 120.3269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 50.8 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cba9af22-d53f-4b17-b5a3-298aec38e956")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 101.6 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c77527ad-38d0-46eb-8406-d1baee8b05a8")
-		(property "Reference" "TP21"
-			(at 102.997 126.5498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 102.997 128.9741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 96.52 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 101.6 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "511819f7-b95a-4271-b770-73b4eb9cc756")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP21")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9203,16 +7804,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 124.46 180)
+		(at 148.59 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c795d41e-89ad-4596-834e-fde326439e50")
-		(property "Reference" "#PWR061"
-			(at 139.7 118.11 0)
+		(uuid "cb412e7f-5353-451a-aa09-34533522f607")
+		(property "Reference" "#PWR068"
+			(at 148.59 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9221,7 +7822,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 120.3269 0)
+			(at 148.59 100.6531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9229,7 +7830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 124.46 0)
+			(at 148.59 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9238,7 +7839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 124.46 0)
+			(at 148.59 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9247,7 +7848,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 124.46 0)
+			(at 148.59 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9256,145 +7857,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e6eb518f-b19b-4a44-a290-0e473be3dca1")
+			(uuid "ea130a1a-48df-4d01-a11a-bd5417b8535f")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 63.5 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbc996db-8e4f-44be-a111-21e6a21d60bf")
-		(property "Reference" "TP18"
-			(at 64.897 126.5498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 64.897 128.9741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 58.42 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 63.5 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31e81ec0-525b-4d9b-b445-8fb48345abf4")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-12V")
-		(at 152.4 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc7f3ed4-e17f-4163-a87d-6e3d2115e420")
-		(property "Reference" "#PWR078"
-			(at 152.4 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-12V"
-			(at 152.4 145.7269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 152.4 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20fa1c11-a472-4563-98b8-8a64a291b5db")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR078")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -9544,7 +8012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf313b17-8ef3-4ac9-bdd7-fca71e0731ba")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR042"
 			(at 57.15 87.63 0)
 			(effects
 				(font
@@ -9595,42 +8063,24 @@
 		(instances
 			(project ""
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR036")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 63.5 110.49 180)
+		(lib_id "power:+5V")
+		(at 27.94 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cfe9977a-5c07-4fcb-9040-4793deae6689")
-		(property "Reference" "TP2"
-			(at 64.897 112.5798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 64.897 115.0041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 58.42 110.49 0)
+		(uuid "cf4785b4-29da-4d59-a689-f2e7dafdba2e")
+		(property "Reference" "#PWR055"
+			(at 27.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9638,124 +8088,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 58.42 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 63.5 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "579d34fe-9c9f-4fdb-a657-2bbe6f49d3d3")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 190.5 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2c0a90e-187f-48c6-8e36-52463711ec98")
-		(property "Reference" "TP28"
-			(at 191.897 126.5498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.897 128.9741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 185.42 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 190.5 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43044e2b-6fbe-488c-86bc-ec599c9255d5")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 190.5 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5a7c2d0-987b-478e-a248-75a2c8dbd2ef")
-		(property "Reference" "#PWR049"
-			(at 190.5 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 106.3569 0)
+		(property "Value" "+5V"
+			(at 27.94 83.4969 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9763,7 +8097,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 110.49 0)
+			(at 27.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9772,7 +8106,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 110.49 0)
+			(at 27.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9780,8 +8114,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 110.49 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 27.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9790,12 +8124,210 @@
 			)
 		)
 		(pin "1"
-			(uuid "90761b9f-5592-4afd-bbf2-7ef9ccf6b550")
+			(uuid "1150c8b2-fad9-4e8a-ad92-62210a393f8d")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR049")
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d00ecc72-2e3c-4735-a9c6-e4d9eac2a0b0")
+		(property "Reference" "#PWR067"
+			(at 119.38 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 129.8631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a337c51-fe81-4bc1-ac8c-e46f6163c5cd")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 96.52 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d01d7bdf-5b01-4d81-96e5-e053a71342fd")
+		(property "Reference" "#PWR090"
+			(at 96.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 96.52 100.6531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 96.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "817a2a49-aac3-4fcd-b549-3835f96c9c4a")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4edafa3-1865-4599-b13c-03241eaffd0f")
+		(property "Reference" "#PWR069"
+			(at 151.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 100.6531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02e75154-b871-408c-a2b7-7fe3f155291e")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -9811,7 +8343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6dbcee2-7a18-411e-8c6b-b34d09ed02f9")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR012"
 			(at 187.96 72.39 0)
 			(effects
 				(font
@@ -9862,7 +8394,73 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR08")
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 116.84 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d846d860-10c5-4c6e-b387-6f6eeef700ff")
+		(property "Reference" "#PWR066"
+			(at 116.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 116.84 129.8631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 116.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed8e683f-c32f-45bf-bd95-bef4be198f7b")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -9878,7 +8476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d96d7b1e-56cc-43f5-8128-e46e9ec2cb10")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 170.18 72.39 0)
 			(effects
 				(font
@@ -9929,7 +8527,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9945,7 +8543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dae20dc2-d4ef-4c33-a26a-df6d0a623b2d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR025"
 			(at 76.2 77.47 0)
 			(effects
 				(font
@@ -9996,7 +8594,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR019")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10004,16 +8602,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 149.86 180)
+		(at 27.94 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "db3e6f8b-b710-49c8-ab00-1f6ff963cc47")
-		(property "Reference" "#PWR081"
-			(at 190.5 143.51 0)
+		(uuid "dcb17061-1995-4fbf-83fa-f0fa0ef225c7")
+		(property "Reference" "#PWR053"
+			(at 27.94 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10022,7 +8620,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 145.7269 0)
+			(at 27.94 107.0031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10030,7 +8628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 149.86 0)
+			(at 27.94 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10039,7 +8637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 149.86 0)
+			(at 27.94 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10048,7 +8646,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 149.86 0)
+			(at 27.94 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10057,78 +8655,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff12f18d-0485-4073-806b-fbeeed1e5ac6")
+			(uuid "703390e5-7fe5-46e1-924d-30022e02b58f")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc17983f-d9b8-4b56-90a0-396c045e911b")
-		(property "Reference" "#PWR073"
-			(at 88.9 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 145.7269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a47ecf1-398f-409d-a28d-481498483b20")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR073")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -10144,7 +8676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd0e2297-5b15-4233-b6df-98f13088f923")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR03"
 			(at 8.89 71.12 0)
 			(effects
 				(font
@@ -10195,7 +8727,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR084")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10211,7 +8743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dea9537d-de27-4827-a0cb-5c1cf27708ca")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR014"
 			(at 8.89 73.66 0)
 			(effects
 				(font
@@ -10262,7 +8794,159 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR086")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfd20e25-9188-4982-89ac-6881bcf46861")
+		(property "Reference" "#PWR093"
+			(at 109.22 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 100.6531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a15ec0a-99e5-4b20-8e4d-8b422e44d0ad")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x08")
+		(at 88.9 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e30fb0a2-1723-4a92-9b0a-d1dc69623480")
+		(property "Reference" "J6"
+			(at 90.17 86.0255 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x08"
+			(at 90.17 88.4498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-8-3.5-H_1x08_P3.50mm_Horizontal"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "9272fc50-6760-4708-bc84-15273e0f09cb")
+		)
+		(pin "7"
+			(uuid "29d6b7b8-5a25-4db9-961a-bd8b52c39f18")
+		)
+		(pin "6"
+			(uuid "53bc573e-9ec3-4398-bc7d-bf81a5ec6278")
+		)
+		(pin "5"
+			(uuid "e01effe9-59fd-434f-b273-ac4b094c054e")
+		)
+		(pin "4"
+			(uuid "2ea0a744-eb06-49d8-922c-4a301792f82a")
+		)
+		(pin "3"
+			(uuid "a897b2a5-773a-4731-9347-b505a3be6d74")
+		)
+		(pin "2"
+			(uuid "4fcde744-87a0-4f43-8428-a555b35258d3")
+		)
+		(pin "1"
+			(uuid "f7c324e7-f256-4cf7-9481-cbf38bbcb86e")
+		)
+		(instances
+			(project ""
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -10278,7 +8962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3a95a44-1792-4b3b-8228-1139563ffa64")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR022"
 			(at 187.96 74.93 0)
 			(effects
 				(font
@@ -10329,73 +9013,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 228.6 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7b6394a-3b98-4df8-9821-595e44ebeef1")
-		(property "Reference" "#PWR052"
-			(at 228.6 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 228.6 106.3569 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 228.6 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e618f0f-d332-4b36-9ae8-6fee8cf5c1b3")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR052")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10403,16 +9021,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 110.49 180)
+		(at 99.06 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e9368ee0-36d2-4c11-b7db-28e084b7d206")
-		(property "Reference" "#PWR045"
-			(at 139.7 104.14 0)
+		(uuid "e48203f9-2e46-4c23-a9a4-6dd9a9d77537")
+		(property "Reference" "#PWR091"
+			(at 99.06 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10421,7 +9039,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 106.3569 0)
+			(at 99.06 100.6531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10429,7 +9047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 110.49 0)
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10438,7 +9056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 110.49 0)
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10447,7 +9065,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 110.49 0)
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10456,48 +9074,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "c9d61014-1292-4fda-bb1f-bc6e6ee714f6")
+			(uuid "d71a0831-a6d9-4314-be10-7e60abd7e224")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR045")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 149.86 180)
+		(lib_id "Connector:Screw_Terminal_01x08")
+		(at 78.74 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eb07829c-624e-4d6d-a429-abb5537b96e1")
-		(property "Reference" "TP42"
-			(at 166.497 151.9498 0)
+		(uuid "e63e11d0-d68d-4e2b-9ec5-ba74564c5bdd")
+		(property "Reference" "J9"
+			(at 80.01 115.2355 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 166.497 154.3741 0)
+		(property "Value" "Screw_Terminal_01x08"
+			(at 80.01 117.6598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 160.02 149.86 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-8-5.0-H_1x08_P5.00mm_Horizontal"
+			(at 78.74 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10506,7 +9121,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 149.86 0)
+			(at 78.74 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10514,8 +9129,95 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 165.1 149.86 0)
+		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "c295ed81-e401-499e-8402-2d47fbfe50ca")
+		)
+		(pin "7"
+			(uuid "675cd688-bc3a-4444-bc78-efb3eaae37e2")
+		)
+		(pin "6"
+			(uuid "c923c4cd-f0eb-4147-8338-1e57bab22a29")
+		)
+		(pin "5"
+			(uuid "45fc9f8f-91fc-4f73-971a-7a3fb482fe7d")
+		)
+		(pin "4"
+			(uuid "7223bec8-3e0d-48af-8eb1-b73ab88ac26d")
+		)
+		(pin "3"
+			(uuid "7699d145-f330-4e73-bdf1-d4c522fe9e2e")
+		)
+		(pin "2"
+			(uuid "3c6367dd-30c3-417c-a3bd-bc44d15e4286")
+		)
+		(pin "1"
+			(uuid "1074e8f7-4479-401b-b452-e631191d0dc7")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 106.68 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaa5234f-3886-45ca-a52a-16817f93cb51")
+		(property "Reference" "#PWR062"
+			(at 106.68 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 106.68 129.8631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 106.68 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10524,12 +9226,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "92db2b1e-ea44-4211-86b2-979ab7f92063")
+			(uuid "c4131971-7693-4c8e-b163-ca72a067b076")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP42")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -10623,16 +9325,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 149.86 180)
+		(at 73.66 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eb7280fe-88bc-4dd6-a0c3-4f5eaa594b58")
-		(property "Reference" "#PWR075"
-			(at 114.3 143.51 0)
+		(uuid "ebbc134a-e328-4127-8f81-6e67aa436127")
+		(property "Reference" "#PWR045"
+			(at 73.66 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10641,7 +9343,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 145.7269 0)
+			(at 73.66 129.8631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10649,7 +9351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 149.86 0)
+			(at 73.66 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10658,7 +9360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 149.86 0)
+			(at 73.66 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10667,7 +9369,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 149.86 0)
+			(at 73.66 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10676,78 +9378,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ed23eb8-aaed-4fb2-ad1c-9fe77288f905")
+			(uuid "e5d46b0d-c559-42a3-9f66-22bcf88c78c1")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb7fc289-6b4b-427a-aa29-706b2fa5e784")
-		(property "Reference" "#PWR039"
-			(at 63.5 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 106.3569 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c9b4369-744f-4b55-96b0-03b1681f476a")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR039")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10763,7 +9399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed56083b-6151-4bba-b3b7-31fb7f849e10")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR037"
 			(at 137.16 80.01 0)
 			(effects
 				(font
@@ -10814,24 +9450,40 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR031")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 203.2 110.49 0)
+		(lib_id "Connector:Screw_Terminal_01x08")
+		(at 140.97 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ee290868-8e97-4b50-bdc2-dd1f353a15d2")
-		(property "Reference" "#PWR050"
-			(at 203.2 114.3 0)
+		(uuid "f069912e-2271-4cfe-8876-f38d5b9db519")
+		(property "Reference" "J8"
+			(at 142.24 86.0255 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x08"
+			(at 142.24 88.4498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-8-3.5-H_1x08_P3.50mm_Horizontal"
+			(at 140.97 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10839,16 +9491,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 203.2 106.3569 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 110.49 0)
+		(property "Datasheet" "~"
+			(at 140.97 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10856,8 +9500,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 203.2 110.49 0)
+		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 140.97 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10865,88 +9509,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 203.2 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "8"
+			(uuid "fde7ff4d-4a65-4dff-b8e6-4d834777ba5f")
+		)
+		(pin "7"
+			(uuid "2034f7ba-4d01-4401-9b82-ce8750ee1536")
+		)
+		(pin "6"
+			(uuid "0606f8a2-4a78-45e2-ad4a-67cf393e7e59")
+		)
+		(pin "5"
+			(uuid "e3ae1f9a-f8a3-496b-8281-0608cf1bb0cc")
+		)
+		(pin "4"
+			(uuid "853a2507-6410-4c7b-b696-4c2390fae872")
+		)
+		(pin "3"
+			(uuid "bcce0bda-e158-4922-bc5b-d74b5daea316")
+		)
+		(pin "2"
+			(uuid "bc30cf69-b9aa-44a8-882c-b0e579f730be")
 		)
 		(pin "1"
-			(uuid "f19d401e-2b40-4dd9-9475-c31555eaf1b1")
+			(uuid "37d5776d-7935-4ccb-941b-229ca5882577")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 152.4 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f38080a1-6ee3-4d40-b7d2-6915f0391c73")
-		(property "Reference" "#PWR046"
-			(at 152.4 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 152.4 106.3569 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 152.4 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6922c257-bb9e-43f0-88bc-d9146ab2c6e2")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR046")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -10962,7 +9552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f438da31-3575-4ed9-93cc-960249d46aa9")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR043"
 			(at 48.26 99.06 0)
 			(effects
 				(font
@@ -11012,42 +9602,24 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR037")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 50.8 110.49 180)
+		(lib_id "power:GND")
+		(at 109.22 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f4400e41-6094-4fa6-b959-47ecdcc2693d")
-		(property "Reference" "TP1"
-			(at 52.197 112.5798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 52.197 115.0041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 45.72 110.49 0)
+		(uuid "f5802b4f-1599-4233-800c-2aee77e6da94")
+		(property "Reference" "#PWR063"
+			(at 109.22 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11055,57 +9627,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 45.72 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 50.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82ce784a-5527-4c46-b2e3-1c7192ad5886")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 127 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa028efe-f8e7-4498-96ca-b19e1e821661")
-		(property "Reference" "#PWR060"
-			(at 127 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 127 120.3269 0)
+		(property "Value" "GND"
+			(at 109.22 129.8631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11113,7 +9636,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 124.46 0)
+			(at 109.22 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11122,7 +9645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 124.46 0)
+			(at 109.22 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11130,8 +9653,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 127 124.46 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11140,12 +9663,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b411631-7066-4141-9d81-0a9c2703aa51")
+			(uuid "f5766fcc-8552-4904-9c89-defd74a798cd")
 		)
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR060")
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 106.68 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6f13857-2501-40e2-ab23-6caecdd8ceed")
+		(property "Reference" "#PWR092"
+			(at 106.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 106.68 100.6531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ace52ac-f9de-4d4d-8fff-6d4582f1bfed")
+		)
+		(instances
+			(project "atx_breakout"
+				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -11161,7 +9750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fad14ded-a170-4a33-a912-fe1bdb27d021")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR02"
 			(at 34.29 68.58 0)
 			(effects
 				(font
@@ -11212,139 +9801,7 @@
 		(instances
 			(project "atx_breakout"
 				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 215.9 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbdaec53-c27d-49cf-b18e-dd40ad8f4f31")
-		(property "Reference" "#PWR067"
-			(at 215.9 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 120.3269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ed0e745-c146-4a8b-b799-07e4059feab2")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 165.1 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe551478-c786-4b43-86db-44fbb83769e7")
-		(property "Reference" "#PWR047"
-			(at 165.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.1 106.3569 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7e98b51-ca3c-4cec-965d-aaf5bbfd357d")
-		)
-		(instances
-			(project "atx_breakout"
-				(path "/8bcbfe75-aa60-4e26-b080-e95e33d1efa7"
-					(reference "#PWR047")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
