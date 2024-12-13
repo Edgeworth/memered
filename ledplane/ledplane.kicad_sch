@@ -399,126 +399,6 @@
 				)
 			)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -722,7 +602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03a037ef-b88d-4e73-bfe4-929a664319a3")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR017"
 			(at 120.65 97.79 0)
 			(effects
 				(font
@@ -773,7 +653,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR021")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -807,7 +687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "misc:LED_3W_OTDIODE"
 			(at 135.89 97.79 0)
 			(effects
 				(font
@@ -862,7 +742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f2648a7-e5b9-4328-8e20-37a5309b79e2")
-		(property "Reference" "H3"
+		(property "Reference" "H10"
 			(at 113.03 120.7078 0)
 			(effects
 				(font
@@ -910,7 +790,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "H3")
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -944,7 +824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "misc:LED_3W_OTDIODE"
 			(at 109.22 97.79 0)
 			(effects
 				(font
@@ -1145,7 +1025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "misc:LED_3W_OTDIODE"
 			(at 58.42 74.93 0)
 			(effects
 				(font
@@ -1218,7 +1098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "misc:LED_3W_OTDIODE"
 			(at 83.82 82.55 0)
 			(effects
 				(font
@@ -1355,7 +1235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "misc:LED_3W_OTDIODE"
 			(at 83.82 90.17 0)
 			(effects
 				(font
@@ -1495,7 +1375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "misc:LED_3W_OTDIODE"
 			(at 135.89 90.17 0)
 			(effects
 				(font
@@ -1550,7 +1430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52ae0833-3bc8-46b2-86f1-e819eabc122b")
-		(property "Reference" "H14"
+		(property "Reference" "H8"
 			(at 166.37 61.0178 0)
 			(effects
 				(font
@@ -1598,7 +1478,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "H14")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -1614,7 +1494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54596b31-7fef-4e4c-a265-184bf1a1e636")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR08"
 			(at 95.25 82.55 0)
 			(effects
 				(font
@@ -1665,7 +1545,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR012")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -1748,7 +1628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5898e1c1-37b1-4e33-a321-d3b9b914f852")
-		(property "Reference" "H12"
+		(property "Reference" "H7"
 			(at 129.54 61.0178 0)
 			(effects
 				(font
@@ -1796,7 +1676,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "H12")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -1812,7 +1692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d02b91e-68d2-4210-a48f-7f75002bdf0d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR015"
 			(at 69.85 97.79 0)
 			(effects
 				(font
@@ -1863,7 +1743,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR019")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -1879,7 +1759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "608f562b-534f-4e28-bb28-7f612734ee3f")
-		(property "Reference" "H11"
+		(property "Reference" "H6"
 			(at 110.49 61.0178 0)
 			(effects
 				(font
@@ -1927,7 +1807,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "H11")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -1943,7 +1823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "641447b3-01f8-4daa-afe4-3a98a858427f")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR014"
 			(at 147.32 90.17 0)
 			(effects
 				(font
@@ -1994,7 +1874,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR018")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2077,7 +1957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66ea97bb-0b3e-4e09-a48f-91233c298564")
-		(property "Reference" "H4"
+		(property "Reference" "H3"
 			(at 166.37 48.3178 0)
 			(effects
 				(font
@@ -2125,7 +2005,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2159,7 +2039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "misc:LED_3W_OTDIODE"
 			(at 135.89 74.93 0)
 			(effects
 				(font
@@ -2214,7 +2094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e38edb2-2365-48dd-992d-3213164fdb42")
-		(property "Reference" "H6"
+		(property "Reference" "H11"
 			(at 132.08 120.7078 0)
 			(effects
 				(font
@@ -2262,7 +2142,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "H6")
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -2296,7 +2176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "misc:LED_3W_OTDIODE"
 			(at 58.42 97.79 0)
 			(effects
 				(font
@@ -2351,7 +2231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7742cb41-1a57-4cfb-9199-d8e8d1ee9ee9")
-		(property "Reference" "H5"
+		(property "Reference" "H4"
 			(at 185.42 48.3178 0)
 			(effects
 				(font
@@ -2399,7 +2279,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "H5")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -2415,7 +2295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77714966-d2b4-4438-83c2-02f2f4665e98")
-		(property "Reference" "H15"
+		(property "Reference" "H9"
 			(at 185.42 61.0178 0)
 			(effects
 				(font
@@ -2463,73 +2343,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "H15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 158.75 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "802172d9-c370-46db-87d6-edbf7aa0ae8d")
-		(property "Reference" "#PWR05"
-			(at 158.75 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 158.75 69.5269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 158.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52846b86-b558-4f5f-9790-001909fcbbfb")
-		)
-		(instances
-			(project "ledplane"
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR05")
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -2627,7 +2441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "misc:LED_3W_OTDIODE"
 			(at 135.89 82.55 0)
 			(effects
 				(font
@@ -2749,7 +2563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90f22be5-bc4c-4b99-adff-07086d1dc228")
-		(property "Reference" "H7"
+		(property "Reference" "H12"
 			(at 151.13 120.7078 0)
 			(effects
 				(font
@@ -2797,7 +2611,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "H7")
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -2898,7 +2712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "misc:LED_3W_OTDIODE"
 			(at 109.22 90.17 0)
 			(effects
 				(font
@@ -2971,7 +2785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "misc:LED_3W_OTDIODE"
 			(at 109.22 82.55 0)
 			(effects
 				(font
@@ -3026,7 +2840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bc0d505-db01-4469-8d1b-de34b174b64c")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR05"
 			(at 120.65 74.93 0)
 			(effects
 				(font
@@ -3077,7 +2891,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR09")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3093,7 +2907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ce7a139-4df0-4e71-9cd8-23458b141b58")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR04"
 			(at 95.25 74.93 0)
 			(effects
 				(font
@@ -3144,7 +2958,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR08")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3160,7 +2974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f93fdef-37b0-4c83-b27a-f3170f0aae76")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR010"
 			(at 147.32 82.55 0)
 			(effects
 				(font
@@ -3211,7 +3025,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR014")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3378,7 +3192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "misc:LED_3W_OTDIODE"
 			(at 58.42 90.17 0)
 			(effects
 				(font
@@ -3433,7 +3247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acb46f32-be30-4ebf-916d-47938f68a5ea")
-		(property "Reference" "H10"
+		(property "Reference" "H14"
 			(at 113.03 133.4078 0)
 			(effects
 				(font
@@ -3481,7 +3295,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "H10")
+					(reference "H14")
 					(unit 1)
 				)
 			)
@@ -3515,7 +3329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "misc:LED_3W_OTDIODE"
 			(at 109.22 74.93 0)
 			(effects
 				(font
@@ -3655,7 +3469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "misc:LED_3W_OTDIODE"
 			(at 83.82 97.79 0)
 			(effects
 				(font
@@ -3710,7 +3524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b67614dd-4338-4681-af96-3057481d34e0")
-		(property "Reference" "H8"
+		(property "Reference" "H5"
 			(at 148.59 54.6678 0)
 			(effects
 				(font
@@ -3758,7 +3572,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "H8")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -3774,7 +3588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bad4b991-2eb0-4979-8172-fd299ec7bace")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR011"
 			(at 69.85 90.17 0)
 			(effects
 				(font
@@ -3825,7 +3639,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR015")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3841,7 +3655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0fe1783-1f2d-4732-9fc2-13f2ca23e4fc")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR09"
 			(at 120.65 82.55 0)
 			(effects
 				(font
@@ -3892,7 +3706,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR013")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3908,7 +3722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c802c641-fd74-42d0-b53a-8c8029c224ab")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR02"
 			(at 167.64 67.31 0)
 			(effects
 				(font
@@ -3958,7 +3772,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR06")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3974,7 +3788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cad29304-8dd7-4b9a-a2a5-2e504d9544d5")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR06"
 			(at 147.32 74.93 0)
 			(effects
 				(font
@@ -4025,7 +3839,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR010")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4041,7 +3855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd35b7b0-eec3-46bb-a056-65027b54fbc3")
-		(property "Reference" "H9"
+		(property "Reference" "H13"
 			(at 170.18 120.7078 0)
 			(effects
 				(font
@@ -4089,7 +3903,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "H9")
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -4123,7 +3937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "misc:LED_3W_OTDIODE"
 			(at 83.82 74.93 0)
 			(effects
 				(font
@@ -4178,7 +3992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db252d30-3caf-48fb-8190-fabe36a9128e")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR012"
 			(at 95.25 90.17 0)
 			(effects
 				(font
@@ -4229,7 +4043,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR016")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4263,7 +4077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "misc:LED_3W_OTDIODE"
 			(at 58.42 82.55 0)
 			(effects
 				(font
@@ -4318,7 +4132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de8b0d0d-7a22-4e2d-8286-0afe5102cf0b")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR07"
 			(at 69.85 82.55 0)
 			(effects
 				(font
@@ -4369,7 +4183,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR011")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4452,7 +4266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec44b03c-8af2-49ba-9c6c-4df74f7dd3e0")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR016"
 			(at 95.25 97.79 0)
 			(effects
 				(font
@@ -4503,73 +4317,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 158.75 73.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efba3ee4-7b18-4f45-ad63-f44035d4ed3b")
-		(property "Reference" "#FLG01"
-			(at 158.75 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 158.75 77.7931 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 158.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70544210-1fd9-4f55-b6bc-5a6e2002db4d")
-		)
-		(instances
-			(project ""
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#FLG01")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4585,7 +4333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3019864-09af-4a55-b595-db6c1babaf83")
-		(property "Reference" "H13"
+		(property "Reference" "H15"
 			(at 132.08 133.4078 0)
 			(effects
 				(font
@@ -4633,7 +4381,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "H13")
+					(reference "H15")
 					(unit 1)
 				)
 			)
@@ -4649,7 +4397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4ebd244-5df2-4e73-83ad-f0c07025403a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR013"
 			(at 120.65 90.17 0)
 			(effects
 				(font
@@ -4700,7 +4448,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR017")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4716,7 +4464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc1469a6-f8bf-45ec-b025-9e18407c439d")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR03"
 			(at 69.85 74.93 0)
 			(effects
 				(font
@@ -4767,7 +4515,7 @@
 		(instances
 			(project ""
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR07")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4783,7 +4531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdd556e6-f287-4a67-9be2-fd4255837b12")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR018"
 			(at 147.32 97.79 0)
 			(effects
 				(font
@@ -4834,7 +4582,7 @@
 		(instances
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR022")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
