@@ -592,72 +592,69 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03a037ef-b88d-4e73-bfe4-929a664319a3")
-		(property "Reference" "#PWR017"
-			(at 120.65 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 117.475 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33203afe-ab21-492f-a96c-1451380e9ce5")
-		)
-		(instances
-			(project "ledplane"
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
+	(no_connect
+		(at 88.9 90.17)
+		(uuid "072ea92a-3e3c-489f-b064-e9756444e7a6")
+	)
+	(no_connect
+		(at 140.97 82.55)
+		(uuid "181916c9-b57a-47fd-b650-e0383466ff4e")
+	)
+	(no_connect
+		(at 140.97 90.17)
+		(uuid "21a900b7-a5ca-4931-9966-fce4112312b0")
+	)
+	(no_connect
+		(at 114.3 97.79)
+		(uuid "580f8f29-cba6-4d56-8400-d4f1c708f4d5")
+	)
+	(no_connect
+		(at 140.97 97.79)
+		(uuid "755a64fd-a1b7-40ae-95c6-c687ddfb72bd")
+	)
+	(no_connect
+		(at 63.5 74.93)
+		(uuid "913a3654-8b41-435d-bf86-30f73ba3ca07")
+	)
+	(no_connect
+		(at 114.3 90.17)
+		(uuid "94986b1e-8b0e-44f4-990a-e8ff88f38e30")
+	)
+	(no_connect
+		(at 88.9 82.55)
+		(uuid "97f3e662-a3b7-43c0-9754-a1e29b38024a")
+	)
+	(no_connect
+		(at 63.5 90.17)
+		(uuid "a3785982-ff6d-45d3-ba20-7054a0af4fed")
+	)
+	(no_connect
+		(at 88.9 97.79)
+		(uuid "abc4b4b2-ec40-4ee6-8f02-9f2f4c7e9265")
+	)
+	(no_connect
+		(at 88.9 74.93)
+		(uuid "ae0fe1a2-c2fd-40b4-bea2-98275f58c011")
+	)
+	(no_connect
+		(at 63.5 82.55)
+		(uuid "b412430b-a309-4805-902c-df4eadf330d2")
+	)
+	(no_connect
+		(at 114.3 82.55)
+		(uuid "dc447425-9b14-4deb-b290-471ac2a87e6b")
+	)
+	(no_connect
+		(at 63.5 97.79)
+		(uuid "eaa131c9-08e4-47e5-98a7-99e97237648c")
+	)
+	(no_connect
+		(at 114.3 74.93)
+		(uuid "eca8819a-8fa1-4629-9070-1f3c045249e2")
+	)
+	(no_connect
+		(at 140.97 74.93)
+		(uuid "fc7bc69d-0614-443e-8ffb-31980d6b1f1e")
 	)
 	(symbol
 		(lib_id "Device:LED_Pad")
@@ -1485,73 +1482,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54596b31-7fef-4e4c-a265-184bf1a1e636")
-		(property "Reference" "#PWR08"
-			(at 95.25 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.075 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce352b8d-6a21-4e9e-b3bf-04faf009174b")
-		)
-		(instances
-			(project "ledplane"
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 109.22 101.6 180)
 		(unit 1)
@@ -1683,73 +1613,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 63.5 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d02b91e-68d2-4210-a48f-7f75002bdf0d")
-		(property "Reference" "#PWR015"
-			(at 69.85 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.675 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "117bc612-f578-4622-90ac-4f9a5728e720")
-		)
-		(instances
-			(project "ledplane"
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 107.95 62.23 0)
 		(unit 1)
@@ -1808,73 +1671,6 @@
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
 					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "641447b3-01f8-4daa-afe4-3a98a858427f")
-		(property "Reference" "#PWR014"
-			(at 147.32 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.145 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5da364f-815c-403e-88de-ecfd37429f6b")
-		)
-		(instances
-			(project "ledplane"
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2831,207 +2627,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 114.3 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bc0d505-db01-4469-8d1b-de34b174b64c")
-		(property "Reference" "#PWR05"
-			(at 120.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 117.475 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90cb27da-fe64-4ff8-8891-7273613141f1")
-		)
-		(instances
-			(project "ledplane"
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ce7a139-4df0-4e71-9cd8-23458b141b58")
-		(property "Reference" "#PWR04"
-			(at 95.25 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.075 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3984645a-0741-47b7-ad45-20104e662a43")
-		)
-		(instances
-			(project "ledplane"
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f93fdef-37b0-4c83-b27a-f3170f0aae76")
-		(property "Reference" "#PWR010"
-			(at 147.32 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.145 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b483e2f-ae56-484a-af31-e228da01937f")
-		)
-		(instances
-			(project "ledplane"
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 58.42 71.12 0)
 		(unit 1)
@@ -3580,140 +3175,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bad4b991-2eb0-4979-8172-fd299ec7bace")
-		(property "Reference" "#PWR011"
-			(at 69.85 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.675 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63c01c61-c9a3-49c5-9f92-5926123d46db")
-		)
-		(instances
-			(project "ledplane"
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0fe1783-1f2d-4732-9fc2-13f2ca23e4fc")
-		(property "Reference" "#PWR09"
-			(at 120.65 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 117.475 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a3b8156-1d9f-4b1f-b03f-51e2e929db2d")
-		)
-		(instances
-			(project "ledplane"
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 167.64 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3773,73 +3234,6 @@
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cad29304-8dd7-4b9a-a2a5-2e504d9544d5")
-		(property "Reference" "#PWR06"
-			(at 147.32 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.145 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1e3df80-859c-4bdf-b098-f0e5d72c4a92")
-		)
-		(instances
-			(project "ledplane"
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3983,73 +3377,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db252d30-3caf-48fb-8190-fabe36a9128e")
-		(property "Reference" "#PWR012"
-			(at 95.25 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.075 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17d48a92-8d01-4ad9-ad35-4efdfb9081ed")
-		)
-		(instances
-			(project "ledplane"
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Pad")
 		(at 58.42 82.55 90)
 		(unit 1)
@@ -4123,73 +3450,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 63.5 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de8b0d0d-7a22-4e2d-8286-0afe5102cf0b")
-		(property "Reference" "#PWR07"
-			(at 69.85 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.675 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be1c5511-7b7b-4cd6-a2a7-bc8f7a36c36a")
-		)
-		(instances
-			(project "ledplane"
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 83.82 71.12 0)
 		(unit 1)
@@ -4257,73 +3517,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec44b03c-8af2-49ba-9c6c-4df74f7dd3e0")
-		(property "Reference" "#PWR016"
-			(at 95.25 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.075 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96af59f5-2cd5-4c09-ab2f-e1dc9ab66fb9")
-		)
-		(instances
-			(project "ledplane"
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 129.54 134.62 0)
 		(unit 1)
@@ -4382,207 +3575,6 @@
 			(project "ledplane"
 				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
 					(reference "H15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4ebd244-5df2-4e73-83ad-f0c07025403a")
-		(property "Reference" "#PWR013"
-			(at 120.65 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 117.475 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a1206a9-5583-400d-9486-652d7a736016")
-		)
-		(instances
-			(project "ledplane"
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc1469a6-f8bf-45ec-b025-9e18407c439d")
-		(property "Reference" "#PWR03"
-			(at 69.85 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.675 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ba46f65-b8d2-4abb-b0c0-13801eeaab29")
-		)
-		(instances
-			(project ""
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdd556e6-f287-4a67-9be2-fd4255837b12")
-		(property "Reference" "#PWR018"
-			(at 147.32 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.145 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d65c0eb9-2060-4f9d-aef8-0967251fdf4e")
-		)
-		(instances
-			(project "ledplane"
-				(path "/9d1b67ac-e567-46cb-95e2-90c1c6c4378b"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
