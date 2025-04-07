@@ -108,6 +108,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -622,22 +623,6 @@
     [
       "6a644670-c01c-49e7-9722-5e19144bbc53",
       "Root"
-    ],
-    [
-      "8cb8ae3d-71a4-44f3-a351-47c18d9ea503",
-      "LCD Driver"
-    ],
-    [
-      "f1777d06-8223-4345-9ac7-b805f68397ec",
-      "LCD Driver1"
-    ],
-    [
-      "2604bb8a-84db-4772-853f-540279c93e44",
-      "LCD Driver2"
-    ],
-    [
-      "c5449a9c-27a5-4f28-9d73-83088d80f377",
-      "LCD Driver3"
     ]
   ],
   "text_variables": {}
